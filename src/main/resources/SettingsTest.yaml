@@ -1,0 +1,71 @@
+description: 'FirstGame'
+gameId: 5
+firstQuestionId: 8
+creaturesQuestions:
+  - id: 1
+    questionText: 'questionText_1'
+    usеAnswerId:
+      - 1
+      - 2
+  - id: 2
+    questionText: 'questionText_2'
+    usеAnswerId:
+      - 3
+      - 4
+  - id: 3
+    questionText: 'Game Over_3'
+    usеAnswerId:
+      - 11
+  - id: 4
+    questionText: 'questionText_4'
+    usеAnswerId:
+      - 5
+      - 6
+  - id: 5
+    questionText: 'questionText_5'
+    usеAnswerId:
+      - 7
+      - 8
+  - id: 6
+    questionText: 'questionText_6'
+    usеAnswerId:
+      - 9
+      - 10
+  - id: 7
+    questionText: 'You WIN_7'
+    usеAnswerId:
+      - 11
+creaturesAnswer:
+  - id: 1
+    answerText: 'answerText_1'
+    nextQuestionId: 2
+  - id: 2
+    answerText: 'answerText_2'
+    nextQuestionId: 3
+  - id: 3
+    answerText: 'answerText_3'
+    nextQuestionId: 4
+  - id: 4
+    answerText: 'answerText_4'
+    nextQuestionId: 3
+  - id: 5
+    answerText: 'answerText_5'
+    nextQuestionId: 5
+  - id: 6
+    answerText: 'answerText_6'
+    nextQuestionId: 3
+  - id: 7
+    answerText: 'answerText_7'
+    nextQuestionId: 6
+  - id: 8
+    answerText: 'answerText_8'
+    nextQuestionId: 3
+  - id: 9
+    answerText: 'answerText_9'
+    nextQuestionId: 7
+  - id: 10
+    answerText: 'answerText_10'
+    nextQuestionId: 3
+  - id: 11
+    answerText: 'Try Agane_11'
+    nextQuestionId: 1
