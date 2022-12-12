@@ -1,0 +1,78 @@
+description: 'Путь великого футболиста'
+gameId: 0
+firstQuestionId: 1
+creaturesQuestions:
+  - id: 1
+    questionText: 'Do you want to be the world champion in football'
+    isLast: false
+    usеAnswerId:
+      - 1
+      - 2
+  - id: 2
+    questionText: 'What will you choose ball or TV show?'
+    isLast: false
+    usеAnswerId:
+      - 3
+      - 4
+  - id: 3
+    questionText: 'Game Over! You will never become like Messi!'
+    isLast: true
+    usеAnswerId:
+      - 11
+  - id: 4
+    questionText: 'Early morning! Your mom woke you up so that you could go for a workout!'
+    isLast: false
+    usеAnswerId:
+      - 5
+      - 6
+  - id: 5
+    questionText: 'Tomorrow is an important day! A coach from your favorite team is coming to watch your workout!'
+    isLast: false
+    usеAnswerId:
+      - 7
+      - 8
+  - id: 6
+    questionText: 'You have reached the final of the 2098 World Championship! Tomorrow is your most important match in life!'
+    isLast: false
+    usеAnswerId:
+      - 9
+      - 10
+  - id: 7
+    questionText: 'You WIN'
+    isLast: true
+    usеAnswerId:
+      - 11
+creaturesAnswer:
+  - id: 1
+    answerText: 'Yes! I will be cooler than Messi!'
+    nextQuestionId: 2
+  - id: 2
+    answerText: 'No, I dont need it!'
+    nextQuestionId: 3
+  - id: 3
+    answerText: 'Ball!'
+    nextQuestionId: 4
+  - id: 4
+    answerText: 'TV!'
+    nextQuestionId: 3
+  - id: 5
+    answerText: 'Im happy to get up and run to training'
+    nextQuestionId: 5
+  - id: 6
+    answerText: 'I say that it was canceled and go back to sleep!'
+    nextQuestionId: 3
+  - id: 7
+    answerText: 'After school, I rush to practice, practice strikes and passes! Then I hurry home, finish my business quickly and go to bed early!'
+    nextQuestionId: 6
+  - id: 8
+    answerText: 'After school, I go to the computer club with my friends and drink soda with chips until late at night!'
+    nextQuestionId: 3
+  - id: 9
+    answerText: 'Im focusing on the opponents and on the team! Im gathering my strength!'
+    nextQuestionId: 7
+  - id: 10
+    answerText: 'I go to the club and give interviews to the press'
+    nextQuestionId: 3
+  - id: 11
+    answerText: 'Try Agane'
+    nextQuestionId: 1
